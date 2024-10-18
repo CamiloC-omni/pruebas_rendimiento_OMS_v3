@@ -30,17 +30,14 @@ export class Auth{
             'login successful': (r) => r.status === 200,
         });
 
-
-        if (response.status === 200) {
+        if (response.status === 200){
             
-            //const token = JSON.parse(response.json('authentication_result').token);
-            const token = response.json('authentication_result').token;
+            let token = response.json('authentication_result').token;
             console.log(`Se genero correctamente el Token: ${token}`);
             return token;
         } else {
             console.log(`Error generando el Token: ${response.status}, ${response.body}`);
             return null;
         }
-    }
-
+    }         
 }

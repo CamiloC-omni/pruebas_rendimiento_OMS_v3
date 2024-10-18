@@ -1,0 +1,866 @@
+[
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e7d"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Altos De Las Torres",
+    "code": "0201"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e7e"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Brisas Del Golf",
+    "code": "0202"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e7f"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Campo Limbergh",
+    "code": "0203"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e80"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Ciudad Radial",
+    "code": "0204"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e81"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Club De Golf",
+    "code": "0205"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e82"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Colinas De Cerro Viento",
+    "code": "0206"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e83"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Colinas Del Golf",
+    "code": "0207"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e84"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "El Crisol",
+    "code": "0208"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e85"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Jardín Olímpico",
+    "code": "0209"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e86"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Juan Díaz",
+    "code": "0210"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e87"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Castellana",
+    "code": "0211"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e88"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Pradera",
+    "code": "0212"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e89"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Pulida",
+    "code": "0213"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e8a"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Llano Bonito",
+    "code": "0214"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e8b"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Los Pueblos",
+    "code": "0215"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e8c"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "San Antonio",
+    "code": "0216"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e8d"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "San Pedro",
+    "code": "0217"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e8e"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Santa Clara",
+    "code": "0218"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e8f"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Terrazas De Brisas Del Golf",
+    "code": "0219"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e90"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Urbanización Balmoral ",
+    "code": "0220"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e91"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Urbanización Colinas Dorasol",
+    "code": "0221"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e92"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Villa Lucre",
+    "code": "0222"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e93"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Altos Del Romeral",
+    "code": "0223"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e94"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Chanis",
+    "code": "0224"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e95"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Costa Bella",
+    "code": "0225"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e96"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Costa Dorada",
+    "code": "0226"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e97"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Costa Del Este",
+    "code": "0227"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e98"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Fontana",
+    "code": "0228"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e99"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Marcasa",
+    "code": "0229"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e9a"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Nuevo Reparto Panamá",
+    "code": "0230"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e9b"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Parque Lefevre",
+    "code": "0231"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e9c"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Plaza Carolina",
+    "code": "0232"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e9d"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "San Gerardo De Mayela",
+    "code": "0233"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e9e"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Santa María Golf And Country Club",
+    "code": "0234"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057e9f"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "12 De Octubre",
+    "code": "0301"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea0"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Altos Del Golf",
+    "code": "0302"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea1"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Av. Balboa",
+    "code": "0303"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea2"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Bella Vista",
+    "code": "0304"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea3"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Boca La Caja",
+    "code": "0305"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea4"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Calle 50",
+    "code": "0306"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea5"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Camino Real",
+    "code": "0307"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea6"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Carrasquilla",
+    "code": "0308"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea7"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Coco Del Mar",
+    "code": "0309"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea8"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Loma Alegre",
+    "code": "0310"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ea9"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Marbella",
+    "code": "0311"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eaa"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Obarrio",
+    "code": "0312"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eab"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Parque Marbella",
+    "code": "0313"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eac"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Punta Pacífica",
+    "code": "0314"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ead"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Punta Paitilla",
+    "code": "0315"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eae"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Residencial Casa Blanca",
+    "code": "0316"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eaf"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "San Francisco",
+    "code": "0317"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb0"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Villas De Andalucía",
+    "code": "0318"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb1"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Vista Alta Del Golf",
+    "code": "0319"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb2"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Vista Hermosa",
+    "code": "0320"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb3"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Área Bancaria",
+    "code": "0321"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb4"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Altos De Panamá",
+    "code": "1968"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb5"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Altos Del Chase",
+    "code": "1969"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb6"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Betania",
+    "code": "1970"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb7"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Bethania",
+    "code": "1971"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb8"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Club X",
+    "code": "1972"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eb9"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Condado Del Rey",
+    "code": "1973"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eba"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Corona Gardens",
+    "code": "1974"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ebb"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Curundú",
+    "code": "1975"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ebc"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Dorado",
+    "code": "1976"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ebd"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Dos Mares",
+    "code": "1977"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ebe"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Edison Park",
+    "code": "1978"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ebf"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "El Bosque",
+    "code": "1979"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec0"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "El Cangrejo",
+    "code": "1980"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec1"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "El Carmen",
+    "code": "1981"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec2"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "El Dorado",
+    "code": "1982"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec3"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "El Doral",
+    "code": "1983"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec4"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "El Ingenio",
+    "code": "1984"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec5"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Fuente Del Fresno",
+    "code": "1985"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec6"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Hato Pintado",
+    "code": "1986"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec7"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Alameda",
+    "code": "1987"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec8"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Cresta",
+    "code": "1988"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ec9"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Gloria",
+    "code": "1989"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eca"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Locería",
+    "code": "1990"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ecb"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Loma",
+    "code": "1991"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ecc"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "La Paz",
+    "code": "1992"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ecd"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Las Mercedes",
+    "code": "1993"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ece"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Las Sabanas",
+    "code": "1994"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ecf"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Limajo",
+    "code": "1995"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed0"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Linda Vista",
+    "code": "1996"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed1"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Llanos De Curundú",
+    "code": "1997"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed2"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Los Ángeles",
+    "code": "1998"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed3"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Miraflores",
+    "code": "1999"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed4"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Residencial El Bosque",
+    "code": "2000"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed5"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "San Fernando",
+    "code": "2001"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed6"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Santa María Tumba Muerto",
+    "code": "2002"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed7"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Urbanización Industrial",
+    "code": "2003"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed8"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Villa Cáceres",
+    "code": "2004"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057ed9"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Villa De Las Fuentes No.1",
+    "code": "2005"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057eda"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Villa De Las Fuentes No.2",
+    "code": "2006"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057edb"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Villas De Las Fuentes",
+    "code": "2007"
+  },
+  {
+    "_id": {
+      "$oid": "65fc59d004c4d1c0ac057edc"
+    },
+    "pa_provincia": "8",
+    "parent": "84",
+    "name": "Monte Oscuro",
+    "code": "2008"
+  }
+]

@@ -1,0 +1,2502 @@
+[
+  {
+    "sku": "20120096",
+    "available_quanity": 18,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10093650",
+    "available_quanity": 30,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20102597",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10134949",
+    "available_quanity": 38,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10124574",
+    "available_quanity": 4,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20137790",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20102797",
+    "available_quanity": 28,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10064512",
+    "available_quanity": 57,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10064998",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10058579",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10058580",
+    "available_quanity": 41,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10036679",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10036689",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10051327",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10051330",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10051331",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10051417",
+    "available_quanity": 4,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10051418",
+    "available_quanity": 3,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10058911",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10023471",
+    "available_quanity": 198,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025931",
+    "available_quanity": 9,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025266",
+    "available_quanity": 63,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026280",
+    "available_quanity": 1,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10072802",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10023850",
+    "available_quanity": 30,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10128527",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10115138",
+    "available_quanity": 12,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20055152",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10116572",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10064370",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10102949",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10064374",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10058583",
+    "available_quanity": 50,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10023468",
+    "available_quanity": 409,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10121703",
+    "available_quanity": 18,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "20041043",
+    "available_quanity": 27,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10065259",
+    "available_quanity": 27,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10093691",
+    "available_quanity": 11,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10081277",
+    "available_quanity": 19,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10038944",
+    "available_quanity": 15,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10102964",
+    "available_quanity": 6,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10102953",
+    "available_quanity": 3,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "30004042",
+    "available_quanity": 50,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20137791",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20103125",
+    "available_quanity": 30,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10085368",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10102966",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20103130",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "20137795",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10113206",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20122378",
+    "available_quanity": 12,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10024870",
+    "available_quanity": 199,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20065820",
+    "available_quanity": 23,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10114524",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20065821",
+    "available_quanity": 35,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10100478",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10026529",
+    "available_quanity": 52,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042631",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026381",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10066185",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10036227",
+    "available_quanity": 7,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10100501",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100545",
+    "available_quanity": 58,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100892",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10102863",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10105561",
+    "available_quanity": 7,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10023652",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025484",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028713",
+    "available_quanity": 24,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028928",
+    "available_quanity": 3,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026193",
+    "available_quanity": 524,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10135659",
+    "available_quanity": 32,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20100013",
+    "available_quanity": 31,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10085730",
+    "available_quanity": 11,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10085743",
+    "available_quanity": 7,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20042252",
+    "available_quanity": 38,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10064922",
+    "available_quanity": 30,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "20070947",
+    "available_quanity": 10,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10100912",
+    "available_quanity": 12,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20043160",
+    "available_quanity": 23,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10098166",
+    "available_quanity": 14,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "30002896",
+    "available_quanity": 21,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20124695",
+    "available_quanity": 59,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20125416",
+    "available_quanity": 44,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10135671",
+    "available_quanity": 17,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10028717",
+    "available_quanity": 10,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20138904",
+    "available_quanity": 7,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20072251",
+    "available_quanity": 21,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10132885",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118216",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118221",
+    "available_quanity": 9,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118222",
+    "available_quanity": 10,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118268",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118270",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118373",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118395",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118508",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10133815",
+    "available_quanity": 6,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10133816",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101421",
+    "available_quanity": 20,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101424",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101425",
+    "available_quanity": 4,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101437",
+    "available_quanity": 4,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101439",
+    "available_quanity": 3,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101454",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101470",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10042504",
+    "available_quanity": 8,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10103744",
+    "available_quanity": 15,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "40009990",
+    "available_quanity": 2,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10064310",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10029107",
+    "available_quanity": 28,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20127346",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10104146",
+    "available_quanity": 38,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10135806",
+    "available_quanity": 1,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10092858",
+    "available_quanity": 11,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10083843",
+    "available_quanity": 28,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10076425",
+    "available_quanity": 20,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10076318",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20102803",
+    "available_quanity": 11,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20041592",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20060545",
+    "available_quanity": 122,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20138902",
+    "available_quanity": 40,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20060909",
+    "available_quanity": 173,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10101422",
+    "available_quanity": 4,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10136113",
+    "available_quanity": 7,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10135741",
+    "available_quanity": 59,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10136069",
+    "available_quanity": 76,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10076327",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "40007811",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "20103144",
+    "available_quanity": 21,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10104145",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10132679",
+    "available_quanity": 16,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10105527",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101365",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10098167",
+    "available_quanity": 14,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10098222",
+    "available_quanity": 34,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10098324",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121624",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10098246",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10098322",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118156",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10036460",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10132837",
+    "available_quanity": 70,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10128327",
+    "available_quanity": 9,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10134518",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117713",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10106972",
+    "available_quanity": 26,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10120199",
+    "available_quanity": 14,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10103860",
+    "available_quanity": 6,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10132925",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20000686",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10116703",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10116715",
+    "available_quanity": 12,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10116764",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117773",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117806",
+    "available_quanity": 20,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100592",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100594",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100596",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100597",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20125564",
+    "available_quanity": 35,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10133270",
+    "available_quanity": 5,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10148854",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10027087",
+    "available_quanity": 4,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20099086",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10136114",
+    "available_quanity": 3,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10083393",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10161136",
+    "available_quanity": 24,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10098548",
+    "available_quanity": 3,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10136297",
+    "available_quanity": 4,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20043645",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10064452",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20100516",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10072230",
+    "available_quanity": 11,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20106849",
+    "available_quanity": 5,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "20074168",
+    "available_quanity": 26,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10026363",
+    "available_quanity": 90,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "40008031",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100599",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10100608",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10101161",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10110638",
+    "available_quanity": 560,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10110640",
+    "available_quanity": 494,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20001270",
+    "available_quanity": 22.65,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10121526",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121567",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121677",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121679",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10120203",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124544",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124545",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124546",
+    "available_quanity": 5,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124547",
+    "available_quanity": 6,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124550",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10081255",
+    "available_quanity": 32,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10132883",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10105756",
+    "available_quanity": 7,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20013213",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10106890",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10106891",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10106969",
+    "available_quanity": 11,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10106974",
+    "available_quanity": 16,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10082327",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20095614",
+    "available_quanity": 1,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10106975",
+    "available_quanity": 5,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10106973",
+    "available_quanity": 33,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10136399",
+    "available_quanity": 167,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10081257",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10081267",
+    "available_quanity": 15,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10037701",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10105650",
+    "available_quanity": 4,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10093545",
+    "available_quanity": 9,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "30004855",
+    "available_quanity": 57,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10134350",
+    "available_quanity": 16,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10104907",
+    "available_quanity": 3,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10107335",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10107540",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10107543",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10107544",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10107618",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10108758",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10108760",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10110617",
+    "available_quanity": 21,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10136108",
+    "available_quanity": 22,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10110682",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10110683",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10110687",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10111295",
+    "available_quanity": 10,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10111338",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112076",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112094",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112114",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112138",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10050530",
+    "available_quanity": 80,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112564",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112733",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112801",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112817",
+    "available_quanity": 2,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112870",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112881",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112885",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112897",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112971",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10112990",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10113081",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10113679",
+    "available_quanity": 5,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10113750",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10114033",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10114145",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10114396",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10114406",
+    "available_quanity": 7,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10114410",
+    "available_quanity": 8,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10114460",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10115097",
+    "available_quanity": 27,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117201",
+    "available_quanity": 32,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10110618",
+    "available_quanity": 44,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10050691",
+    "available_quanity": 14,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10136687",
+    "available_quanity": 20,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10117204",
+    "available_quanity": 1,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117318",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117331",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117332",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10117917",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118031",
+    "available_quanity": 7,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118033",
+    "available_quanity": 11,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118509",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10059703",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10118510",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118625",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118631",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118632",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20119825",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10118695",
+    "available_quanity": 7,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118713",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10144732",
+    "available_quanity": 6,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10118771",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118772",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118774",
+    "available_quanity": 62,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118883",
+    "available_quanity": 8,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118902",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118984",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119040",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119051",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119052",
+    "available_quanity": 10,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119074",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119119",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119120",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10076350",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10119124",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119150",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119189",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119233",
+    "available_quanity": 28,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20113376",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10091093",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10118990",
+    "available_quanity": 17,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20132931",
+    "available_quanity": 72,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "20132930",
+    "available_quanity": 48,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10138011",
+    "available_quanity": 4,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20113978",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119496",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119499",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119520",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10083894",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10119527",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10120017",
+    "available_quanity": 6,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10083895",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10120235",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20047765",
+    "available_quanity": 5,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20138907",
+    "available_quanity": 3,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10059271",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10036709",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028506",
+    "available_quanity": 6,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20140113",
+    "available_quanity": 29,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10120236",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20135026",
+    "available_quanity": 1,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10121602",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121605",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121607",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121610",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10121680",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10113574",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123065",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123210",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20132664",
+    "available_quanity": 6,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10083897",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10026994",
+    "available_quanity": 23,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10123284",
+    "available_quanity": 53,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10110645",
+    "available_quanity": 144,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10146148",
+    "available_quanity": 4,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10083899",
+    "available_quanity": 23,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10082316",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10097113",
+    "available_quanity": 19,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10097115",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10086807",
+    "available_quanity": 8,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10086513",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20131936",
+    "available_quanity": 11.244,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "20050010",
+    "available_quanity": 16,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10026534",
+    "available_quanity": 7,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20106117",
+    "available_quanity": 0,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10028845",
+    "available_quanity": 27,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "40006737",
+    "available_quanity": 14.321,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20141091",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10110648",
+    "available_quanity": 26,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10051149",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042632",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10024821",
+    "available_quanity": 74,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10024833",
+    "available_quanity": 4,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10067976",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10024835",
+    "available_quanity": 6,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10024993",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10095391",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10083506",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "40009142",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "30003269",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20128180",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "55001313",
+    "available_quanity": -0.5,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10132679",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10110649",
+    "available_quanity": 28,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10083509",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10084571",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10024996",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028063",
+    "available_quanity": 255,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042410",
+    "available_quanity": 4,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028025",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042436",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10029428",
+    "available_quanity": 6,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10050981",
+    "available_quanity": 5,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10051584",
+    "available_quanity": 18,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10067975",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042467",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042474",
+    "available_quanity": 43,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042544",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042546",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20054288",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10024801",
+    "available_quanity": 6,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10050966",
+    "available_quanity": 17,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10052604",
+    "available_quanity": 155,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20140419",
+    "available_quanity": 82,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10054576",
+    "available_quanity": 36,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10104711",
+    "available_quanity": 25,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042551",
+    "available_quanity": 30,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10069961",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20102200",
+    "available_quanity": 67,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10026187",
+    "available_quanity": 187,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10064556",
+    "available_quanity": 17,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10023026",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10042633",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10041773",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10123307",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123312",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123313",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123315",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20030439",
+    "available_quanity": 4,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10123316",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123317",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123367",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123376",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123377",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10051563",
+    "available_quanity": 3,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10064549",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025049",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10029123",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025337",
+    "available_quanity": 2,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025442",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025444",
+    "available_quanity": 4,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025535",
+    "available_quanity": 6,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025536",
+    "available_quanity": 1,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025885",
+    "available_quanity": 7,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10110650",
+    "available_quanity": 64,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10086029",
+    "available_quanity": 8,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10025345",
+    "available_quanity": 1,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10086100",
+    "available_quanity": 5,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10086430",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10083347",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20024563",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10026380",
+    "available_quanity": 3,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025443",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20060444",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10071306",
+    "available_quanity": 30,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10025376",
+    "available_quanity": 126,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10123291",
+    "available_quanity": 56,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20104943",
+    "available_quanity": 85,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10056803",
+    "available_quanity": 46,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123287",
+    "available_quanity": 80,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10123378",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10026438",
+    "available_quanity": 7,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10123488",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "20106119",
+    "available_quanity": 4,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10123489",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124554",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124560",
+    "available_quanity": 394,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10026572",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "55001313",
+    "available_quanity": 0.5,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10026573",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10132679",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "40009142",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20128180",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "40009048",
+    "available_quanity": 2,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10084571",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "30003269",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10083506",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10083509",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10095391",
+    "available_quanity": 2,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10026575",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026579",
+    "available_quanity": 6,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026582",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026594",
+    "available_quanity": 1,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026600",
+    "available_quanity": 214,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026609",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026613",
+    "available_quanity": 139,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026753",
+    "available_quanity": 46,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20078932",
+    "available_quanity": 1,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10026780",
+    "available_quanity": 61,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026817",
+    "available_quanity": 30,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026898",
+    "available_quanity": 36,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026904",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026910",
+    "available_quanity": 276,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026914",
+    "available_quanity": 70,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20060466",
+    "available_quanity": 0,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10026588",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20060469",
+    "available_quanity": 3,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "20060539",
+    "available_quanity": 22,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "10026819",
+    "available_quanity": 21,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "55001323",
+    "available_quanity": 109.327,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20108270",
+    "available_quanity": 5,
+    "warehouse_code": "1934"
+  },
+  {
+    "sku": "75001131",
+    "available_quanity": 86.675,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026615",
+    "available_quanity": 1,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026650",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "20024562",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10124563",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124592",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124598",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "40007341",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124601",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124603",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "40007807",
+    "available_quanity": 19,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "70000044",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10072012",
+    "available_quanity": 0.5,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10124626",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10124627",
+    "available_quanity": 0,
+    "warehouse_code": "1916"
+  },
+  {
+    "sku": "10026933",
+    "available_quanity": 8,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10071451",
+    "available_quanity": 4,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026930",
+    "available_quanity": 118,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10026937",
+    "available_quanity": 5,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10027088",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10027106",
+    "available_quanity": 91,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10027195",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10134840",
+    "available_quanity": 2,
+    "warehouse_code": "1959"
+  },
+  {
+    "sku": "10027235",
+    "available_quanity": 260,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10027237",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10027421",
+    "available_quanity": 419,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10027699",
+    "available_quanity": 7,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10024466",
+    "available_quanity": 13,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028109",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028163",
+    "available_quanity": 9,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10028172",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10029380",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10065004",
+    "available_quanity": 11,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10065005",
+    "available_quanity": 0,
+    "warehouse_code": "1968"
+  },
+  {
+    "sku": "10023956",
+    "available_quanity": 25,
+    "warehouse_code": "1968"
+  }
+]

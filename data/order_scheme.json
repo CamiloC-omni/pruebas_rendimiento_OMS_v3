@@ -1,0 +1,865 @@
+[
+  {
+    "order_items": [
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20100516",
+        "tax": 0,
+        "item_id": "147641",
+        "discount": 0,
+        "quantity": 2,
+        "sub_total": 3.68,
+        "unit_price": 1.84,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 3.68,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20111507",
+        "tax": 0.07,
+        "item_id": "147644",
+        "discount": 0,
+        "quantity": 5,
+        "sub_total": 1,
+        "unit_price": 0.2,
+        "tax_details": [
+          {
+            "code": "7",
+            "amount": 0.07
+          }
+        ],
+        "total_price": 1.07,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20054769",
+        "tax": 0,
+        "item_id": "147647",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 1.85,
+        "unit_price": 1.85,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 1.85,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10128237",
+        "tax": 0,
+        "item_id": "147650",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 3.29,
+        "unit_price": 3.29,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 3.29,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20144316",
+        "tax": 0,
+        "item_id": "147653",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 1.19,
+        "unit_price": 1.19,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 1.19,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10103125",
+        "tax": 0,
+        "item_id": "147656",
+        "discount": 0.8,
+        "quantity": 2,
+        "sub_total": 6.38,
+        "unit_price": 3.99,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 6.38,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.8
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20124906",
+        "tax": 0.25,
+        "item_id": "147659",
+        "discount": 0.75,
+        "quantity": 1,
+        "sub_total": 3.5,
+        "unit_price": 4.25,
+        "tax_details": [
+          {
+            "code": "7",
+            "amount": 0.25
+          }
+        ],
+        "total_price": 3.75,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.75
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20095695",
+        "tax": 0.23,
+        "item_id": "147662",
+        "discount": 0.72,
+        "quantity": 1,
+        "sub_total": 3.27,
+        "unit_price": 3.99,
+        "tax_details": [
+          {
+            "code": "7",
+            "amount": 0.23
+          }
+        ],
+        "total_price": 3.5,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.72
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20138458",
+        "tax": 0,
+        "item_id": "147665",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 3.59,
+        "unit_price": 3.59,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 3.59,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10091215",
+        "tax": 0,
+        "item_id": "147668",
+        "discount": 0.85,
+        "quantity": 1,
+        "sub_total": 3.4,
+        "unit_price": 4.25,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 3.4,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.85
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20060560",
+        "tax": 0,
+        "item_id": "147671",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 4.95,
+        "unit_price": 4.95,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 4.95,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20014912",
+        "tax": 0,
+        "item_id": "147674",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 2.89,
+        "unit_price": 2.89,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 2.89,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20096893",
+        "tax": 0,
+        "item_id": "147677",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 2.59,
+        "unit_price": 2.59,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 2.59,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10107298",
+        "tax": 0,
+        "item_id": "147680",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 2.05,
+        "unit_price": 2.05,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 2.05,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20016229",
+        "tax": 0,
+        "item_id": "147683",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 4.6,
+        "unit_price": 4.6,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 4.6,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20110581",
+        "tax": 0,
+        "item_id": "147686",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 5.09,
+        "unit_price": 5.09,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 5.09,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10096141",
+        "tax": 0,
+        "item_id": "147689",
+        "discount": 0,
+        "quantity": 2,
+        "sub_total": 1.74,
+        "unit_price": 0.87,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 1.74,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20052930",
+        "tax": 0,
+        "item_id": "147692",
+        "discount": 0,
+        "quantity": 2,
+        "sub_total": 1.5,
+        "unit_price": 0.75,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 1.5,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20052212",
+        "tax": 0,
+        "item_id": "147695",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 0.62,
+        "unit_price": 0.62,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 0.62,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20147448",
+        "tax": 0,
+        "item_id": "147698",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 0.75,
+        "unit_price": 0.75,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 0.75,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20114953",
+        "tax": 0,
+        "item_id": "147701",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 3.95,
+        "unit_price": 3.95,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 3.95,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "30003089",
+        "tax": 0,
+        "item_id": "147704",
+        "discount": 1.2,
+        "quantity": 1,
+        "sub_total": 4.79,
+        "unit_price": 5.99,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 4.79,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 1.2
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "30002967",
+        "tax": 0,
+        "item_id": "147707",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 3.85,
+        "unit_price": 3.85,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 3.85,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20106104",
+        "tax": 0,
+        "item_id": "147710",
+        "discount": 0,
+        "quantity": 1,
+        "sub_total": 4.05,
+        "unit_price": 4.05,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 4.05,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "75002249",
+        "tax": 0,
+        "item_id": "147713",
+        "discount": 0,
+        "quantity": 0.5,
+        "sub_total": 2.25,
+        "unit_price": 4.5,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 2.25,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10095578",
+        "tax": 0,
+        "item_id": "147716",
+        "discount": 0,
+        "quantity": 2,
+        "sub_total": 4.98,
+        "unit_price": 2.49,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 4.98,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "20067597",
+        "tax": 0,
+        "item_id": "147719",
+        "discount": 0.15,
+        "quantity": 1,
+        "sub_total": 2.14,
+        "unit_price": 2.29,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 2.14,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.15
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10072513",
+        "tax": 0,
+        "item_id": "147722",
+        "discount": 0.05,
+        "quantity": 1,
+        "sub_total": 0.93,
+        "unit_price": 0.98,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 0.93,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.05
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10072596",
+        "tax": 0,
+        "item_id": "147725",
+        "discount": 0.05,
+        "quantity": 1,
+        "sub_total": 0.74,
+        "unit_price": 0.79,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 0.74,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.05
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10072562",
+        "tax": 0,
+        "item_id": "147728",
+        "discount": 0.05,
+        "quantity": 2,
+        "sub_total": 1.86,
+        "unit_price": 0.98,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 1.86,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.05
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10132654",
+        "tax": 0.21,
+        "item_id": "147731",
+        "discount": 1.2,
+        "quantity": 1,
+        "sub_total": 2.95,
+        "unit_price": 4.15,
+        "tax_details": [
+          {
+            "code": "7",
+            "amount": 0.21
+          }
+        ],
+        "total_price": 3.16,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 1.2
+          }
+        ]
+      },
+      {
+        "cid": "66e354f0b1be633c50c5f8bc",
+        "sku": "10096177",
+        "tax": 0,
+        "item_id": "147734",
+        "discount": 0.3,
+        "quantity": 1,
+        "sub_total": 2.13,
+        "unit_price": 2.43,
+        "tax_details": [
+          {
+            "code": "0",
+            "amount": 0
+          }
+        ],
+        "total_price": 2.13,
+        "unit_of_measure": "unidad",
+        "discount_details": [
+          {
+            "code": "",
+            "amount": 0.3
+          }
+        ]
+      }
+    ],
+    "order_details": {
+      "tax": 0.76,
+      "flow": "state",
+      "state": "processing",
+      "total": 93.31,
+      "origin": "Estados S99",
+      "channel": "MAGENTO_PANAMA",
+      "country": "PA",
+      "sale_id": "9908",
+      "currency": "USD",
+      "discount": 0,
+      "sale_num": "5001118576",
+      "subtotal": 92.55,
+      "confirm_date": "2024-10-03 21:07:03",
+      "created_date": "2024-10-03 21:07:03"
+    },
+    "client_details": {
+      "info": {
+        "name": "Myriam Valero Ordoñez",
+        "email": "mvalero@gmail.com",
+        "phone": "62318472",
+        "mobile": "62318472",
+        "country": "PA",
+        "document": "N14590570",
+        "client_id": "4",
+        "type_document": "cc"
+      },
+      "billing_address": {
+        "lat": "9.0315817",
+        "lng": "-79.5290804",
+        "note": "Por Condado del Rey",
+        "phone": "62318472",
+        "mobile": "62318472",
+        "street": "Dorado Springs, Panamá",
+        "country": "PA",
+        "street2": "CASA 70",
+        "zip_code": "PANAMÁ",
+        "territory": {
+          "pa_distrito": "84",
+          "pa_provincia": "8",
+          "pa_corregimiento": "1968"
+        }
+      },
+      "shipping_address": {
+        "lat": "9.0315817",
+        "lng": "-79.5290804",
+        "note": "Por Condado del Rey",
+        "mobile": "62318472",
+        "street": "Dorado Springs, Panamá",
+        "country": "PA",
+        "street2": "CASA 70",
+        "zip_code": "PANAMÁ",
+        "territory": {
+          "pa_distrito": "84",
+          "pa_provincia": "8",
+          "pa_corregimiento": "1968"
+        }
+      }
+    },
+    "payment_details": {
+      "total": 93.31,
+      "payments": [
+        {
+          "data": {
+            "grand_total": 102.565,
+            "refundable_fee": "9.2550"
+          },
+          "total": 0,
+          "method": "chcybersource"
+        }
+      ]
+    },
+    "shipping_details": {
+      "tax": 0,
+      "data": {},
+      "total": 0,
+      "method": "",
+      "discount": 0,
+      "subtotal": 0,
+      "info_receives": {
+        "name": null,
+        "phone": "62318472",
+        "mobile": "62318472",
+        "document": null,
+        "type_document": "cc",
+        "picking_instructions": null,
+        "delivery_instructions": null,
+        "substitution_instructions": "Solo productos disponibles"
+      },
+      "discount_description": ""
+    }
+  }
+]

@@ -8,6 +8,7 @@ export class Client {
         this.token = token;
     }
 
+
     getClient() {
     
         let clientUrl = `${this.baseUrl}/api/v1/client`;
@@ -35,18 +36,16 @@ export class Client {
      
     }
 
-
-    pageClient(){
+    pageClient(responseJson){
 
         const limit = 20;  
         let totalClient = 0;
-        let response1 = this.getClient();
-        let metaData = response1.meta_data;
-        
+        let responseJsonParse = JSON.parse(responseJson);
+        let metaData = responseJsonParse.meta_data;
     
 
         if (!metaData || typeof metaData.total === 'undefined') {
-            console.error('Error: meta_data o meta_data.total no está presente en la respuesta. Respuesta:', response1 );
+            console.error('Error: meta_data o meta_data.total no está presente en la respuesta. Respuesta:', responseJson );
         }
 
         if (totalClient === 0) {
@@ -67,6 +66,7 @@ export class Client {
         
         if(response.status === 200){
             console.log(`Estado = ${response.status}, links = ${clientUrl2}`)
+            //console.log(response.body);
         } else {
             console.error(`Error al obtener la respuesta: ${response.status}, ${response.body}, Link: ${clientUrl2}`)
             
