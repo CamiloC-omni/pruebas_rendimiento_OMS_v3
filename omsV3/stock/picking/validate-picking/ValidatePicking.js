@@ -1,17 +1,12 @@
 import { http } from 'k6/http';
-import { check } from 'k6';
+import { check, group } from 'k6';
 
 
-export class ValidatePicking {
+export function ValidatePicking (baseURL, authToken) {
 
-    constructor(baseUrl, token) {
-        this.baseUrl = baseUrl;
-        this.token = token;
-    }
+    group('validate_picking', function(){
 
-    validatePickiPost(){
-
-        const urlVP = `${this.baseUrl}/api/v1/stock/picking/validate-picking`;
+        const urlVP = `${baseURL}/api/v1/stock/picking/validate-picking`;
 
         const headers = {
             'Content-Type': 'application/json',
@@ -39,6 +34,6 @@ export class ValidatePicking {
             'Status añadir Cantidades 200': (r) => r.status === 200,
         });
 
-    }
+    });
 
 }

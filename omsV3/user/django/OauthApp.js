@@ -1,30 +1,25 @@
 import http from 'k6/http';
 import { check } from 'k6';
 
-export class Oauth{
+export class OauthApp{
 
     constructor() {
-        //this.baseUrl = baseUrl;
-        this.token = this.login();
+        //this.baseUrl = baseUrl;;
     }
 
 
-    login(){
-        let tokenOauth;
+    loginApp(){
 
         const authUrl = `http://apps.ourwn.co:8010/oauth2/token/`
 
-        const response = http.post(authUrl, 
+        const response = http.post(authUrl,
             {
                 grant_type: 'client_credentials',
                 client_id: 'nhSlynZaVImQWWz5RYFJPboLMbORdj6P9f2a31Vf',
                 client_secret: 'yuvBK3bLV87sy2zlaSLdLrmxrP5lvueS42csKyYsJdF14w0UX8By8apWUIb0VtWwcWJ0oQg4SSSyC1RUWDdTme7y7ReUuFApUpWSUP0KYxYYMrYWerMbtyuTwmXSBL3b',
-            }, 
-            {
-                headers: {
-                  'Content-Type': 'application/x-www-form-urlencoded',
-                },
-            });
+            }, {headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            }});
 
         check(response, {
             'login successful': (r) => r.status === 200,
@@ -33,11 +28,11 @@ export class Oauth{
         if (response.status === 200){
             
             const body = JSON.parse(response.body);
-            tokenOauth = body.access_token;
-            console.log(`Se genero correctamente el Token: ${tokenOauth}`);
+            let tokenOauth = body.access_token;
+            console.log(`Se genero correctamente el Token de la App: ${tokenOauth}`);
             return tokenOauth;
         } else {
-            console.log(`Error generando el Token: ${response.status}, ${response.body}`);
+            console.log(`Error generando el Token de la App: ${response.status}, ${response.body}`);
             return null;
         }
     }         

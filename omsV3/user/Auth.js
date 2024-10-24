@@ -14,9 +14,9 @@ export class Auth{
 
 
         const requestBody = JSON.stringify({
-            'username': 'testing',
-            'password': 'Xu531pm0C-',
-            'tenant' : 'SUPER99'
+            'username': globalThis.clientId,
+            'password': globalThis.clientPassword,
+            'tenant' : globalThis.tenant,
         });
 
         const headers = {
