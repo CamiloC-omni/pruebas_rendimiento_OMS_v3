@@ -1,22 +1,23 @@
 import { Auth } from './omsV3/user/Auth.js';
 import { Client } from './omsV3/client/Cliente.js';
 import { ComputeMethod } from './omsV3/rules/ComputeMethod.js';
-import { sleep } from 'k6';
 import { Stock } from './omsV3/stock/stockPrueba.js';
-import { Oauth } from './omsV3/user/oauthPrueba.js';
+import { OauthApp } from './omsV3/user/django/OauthApp.js';
+import { OauthUser } from './omsV3/user/django/OauthUser.js'
+import { ValidateApp } from './omsV3/user/django/ValidateApp.js';
+import { ValidateUser } from './omsV3/user/django/ValidateUser.js';
 
-
-
-const baseUrl = 'https://integration-core-oms-v3.omni.pro';
-const baseUrl2 = 'http://apps.ourwn.co:8040';
-
+globalThis.baseURL = __ENV.BASE_URL || 'https://integration-core-oms-v3.omni.pro';
+globalThis.clientId = __ENV.CLIENT_ID || 'testing';
+globalThis.clientPassword = __ENV.CLIENT_PASSWORD || 'Xu531pm0C-';
+globalThis.tenant = __ENV.TENANT || 'SUPER99';
 
 const allScenarios = {
     shared_iterations_test: {
         executor: 'shared-iterations',
-        exec:'stockTest', //Cambiar si se va a ejecutar otro
-        iterations: 20,
-        vus: 1,
+        exec:'clientTest', //Cambiar si se va a ejecutar otro
+        iterations: 10,
+        vus: 10,
         maxDuration: '30s', 
         //description: 'Establece un numero fijo de iteraciones, comprarte iteraciones entre VUs https://grafana.com/docs/k6/latest/using-k6/scenarios/executors/shared-iterations/'
     },
@@ -59,16 +60,26 @@ const allScenarios = {
     },
     ramping_arrival_rate_test: {
         executor: 'ramping-arrival-rate',
-        startRate: 10,
-        endRate: 10,
-        duration: '1m',
+        exec: 'clientTest',
+        startRate: 1,
         timeUnit: '1s',
-        preAllocatedVUs: 50,
+        preAllocatedVUs: 5000,
         stages: [
-            { duration: '1m', target: 10 },
-            { duration: '2m', target: 600 },
-            { duration: '4m', target: 600 },
-            { duration: '2m', target: 100 },
+            // { duration: '1m', target: 10 },
+            // { duration: '0s', target: 12 },
+            // { duration: '1m', target: 12 },
+            { duration: '0s', target: 30 },
+            { duration: '1m', target: 30 },
+            { duration: '0s', target: 32 },
+            { duration: '1m', target: 32 },
+            { duration: '0s', target: 34 },
+            { duration: '1m', target: 34 },
+            // { duration: '0s', target: 76 },
+            // { duration: '1m', target: 76 },
+            // { duration: '0s', target: 78 },
+            // { duration: '1m', target: 78 },
+            // { duration: '0s', target: 80 },
+            // { duration: '1m', target: 80 },
         ],
         //description: 'Establece una tasa de iteraciones creciente y decreciente, aumenta la tasa de iteración de acuerdo con las etapas configuradas https://grafana.com/docs/k6/latest/using-k6/scenarios/executors/ramping-arrival-rate/'
     }
@@ -80,19 +91,25 @@ const seleccionarScenario = __ENV.SCENARIO || 'constant_vus_test';
 const filtrarScenarios = {};
 filtrarScenarios[seleccionarScenario] = allScenarios[seleccionarScenario];
 
+let tokenApp = '';
+let tokenUser = '';
 let authToken = '';
 
 export function setup(){
-    // const auth = new Auth(baseUrl);
-    // authToken = auth.token;
+    const auth = new Auth(baseURL);
+    authToken = auth.login();
 
-    const oauth1 = new Oauth();
-    authToken = oauth1.token;
+    // const oauthApp = new OauthApp();
+    // tokenApp = oauthApp.loginApp();
+
+    // const oauthUser = new OauthUser();
+    // tokenUser = oauthUser.loginUser();
     
-    // const client1 = new Client(baseUrl, authToken);
-    // const responseJson = JSON.stringify(client1.getClient());
-    
-    return { authToken};
+
+    const client1 = new Client(baseURL, authToken);
+    const responseJson = JSON.stringify(client1.getClient());
+    return { authToken, responseJson};
+    //return { tokenApp, tokenUser};
 }
 
 export const options = {
@@ -109,39 +126,52 @@ export const options = {
 };
 
 export default function () {
-    
-    // const auth = new Auth(baseUrl)
-    // let tokenAuth = auth.token;
-    // console.log(tokenAuth)
-    
-
-    
 
 }
 
 export function authTest(){
-    const auth = new Auth(baseUrl);
+    const auth = new Auth(baseU);
     auth.login();
     
 };
 
 export function clientTest(data){
-    const client1 = new Client(baseUrl, data.authToken);
+    const client1 = new Client(baseURL, data.authToken);
 
     client1.pageClient(data.responseJson);
 
 };
 
-// export function computeMethodTest(data){
-//     const computedMethod1 = new ComputeMethod(baseUrl, data.authToken);
+export function computeMethodTest(data){
+    const computedMethod1 = new ComputeMethod(baseUrl, data.authToken);
     
-//     computedMethod1.computeOrden();
-// }
-
+    computedMethod1.computeOrden();
+}
 
 export function stockTest(data){
 
     const stockTest1 = new Stock(baseUrl2,data.authToken);
     //stockTest1.stockPost();
     console.log(stockTest1.stockPost());
+}
+
+
+export function validateTokenTest(data){
+    
+    const validateApp = new ValidateApp(data.tokenApp);
+    validateApp.validateAppToken();
+
+    // const validateUser = new ValidateUser(data.tokenUser);
+    // validateUser.validateUserToken();
+
+}
+
+export function oauthAppTest(){
+    const oauthApp = new OauthApp();
+    console.log(oauthApp.loginApp());
+}
+
+export function oauthUserTest(){
+    const oauthUser = new OauthUser();
+    console.log(oauthUser.loginUser());
 }
