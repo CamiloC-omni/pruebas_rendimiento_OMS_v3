@@ -1,4 +1,4 @@
-import { Auth } from './omsV3/user/Auth.js';
+import { Auth } from './omsV3/user/auth.js';
 import { Client } from './omsV3/client/Cliente.js';
 import { ComputeMethod } from './omsV3/rules/ComputeMethod.js';
 import { Stock } from './omsV3/stock/stockPrueba.js';
@@ -6,16 +6,17 @@ import { OauthApp } from './omsV3/user/django/OauthApp.js';
 import { OauthUser } from './omsV3/user/django/OauthUser.js'
 import { ValidateApp } from './omsV3/user/django/ValidateApp.js';
 import { ValidateUser } from './omsV3/user/django/ValidateUser.js';
+import { config } from './config/config.js';
 
-globalThis.baseURL = __ENV.BASE_URL || 'https://integration-core-oms-v3.omni.pro';
-globalThis.clientId = __ENV.CLIENT_ID || 'testing';
-globalThis.clientPassword = __ENV.CLIENT_PASSWORD || 'Xu531pm0C-';
-globalThis.tenant = __ENV.TENANT || 'SUPER99';
+globalThis.baseURLCore = config.baseURLCore;
+globalThis.clientId = config.clientId;
+globalThis.clientSecret = config.clientPassword;
+globalThis.tenant = config.tenant;
 
 const allScenarios = {
     shared_iterations_test: {
         executor: 'shared-iterations',
-        exec:'clientTest', //Cambiar si se va a ejecutar otro
+        exec:'oauthAppTest', //Cambiar si se va a ejecutar otro
         iterations: 10,
         vus: 10,
         maxDuration: '30s', 
@@ -60,22 +61,22 @@ const allScenarios = {
     },
     ramping_arrival_rate_test: {
         executor: 'ramping-arrival-rate',
-        exec: 'clientTest',
+        exec: 'oauthAppTest',
         startRate: 1,
         timeUnit: '1s',
-        preAllocatedVUs: 5000,
+        preAllocatedVUs: 500,
         stages: [
             // { duration: '1m', target: 10 },
             // { duration: '0s', target: 12 },
             // { duration: '1m', target: 12 },
             { duration: '0s', target: 30 },
-            { duration: '1m', target: 30 },
+            { duration: '30s', target: 30 },
             { duration: '0s', target: 32 },
-            { duration: '1m', target: 32 },
-            { duration: '0s', target: 34 },
-            { duration: '1m', target: 34 },
-            // { duration: '0s', target: 76 },
-            // { duration: '1m', target: 76 },
+            { duration: '30s', target: 32 },
+            { duration: '0s', target: 33 },
+            { duration: '30s', target: 33 },
+            { duration: '0s', target: 35 },
+            { duration: '30s', target: 35 },
             // { duration: '0s', target: 78 },
             // { duration: '1m', target: 78 },
             // { duration: '0s', target: 80 },
@@ -96,20 +97,20 @@ let tokenUser = '';
 let authToken = '';
 
 export function setup(){
-    const auth = new Auth(baseURL);
-    authToken = auth.login();
+    // const auth = new Auth(baseURL);
+    // authToken = auth.login();
 
     // const oauthApp = new OauthApp();
     // tokenApp = oauthApp.loginApp();
 
-    // const oauthUser = new OauthUser();
-    // tokenUser = oauthUser.loginUser();
+    // // const oauthUser = new OauthUser();
+    // // tokenUser = oauthUser.loginUser();
     
 
-    const client1 = new Client(baseURL, authToken);
-    const responseJson = JSON.stringify(client1.getClient());
-    return { authToken, responseJson};
-    //return { tokenApp, tokenUser};
+    // const client1 = new Client(baseURL, authToken);
+    // const responseJson = JSON.stringify(client1.getClient());
+    // return { authToken, responseJson};
+    // //return { tokenApp, tokenUser};
 }
 
 export const options = {
@@ -126,13 +127,9 @@ export const options = {
 };
 
 export default function () {
+};
 
-}
-
-export function authTest(){
-    const auth = new Auth(baseU);
-    auth.login();
-    
+export function authTest(){  
 };
 
 export function clientTest(data){

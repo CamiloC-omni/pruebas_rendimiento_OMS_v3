@@ -4,7 +4,7 @@ import { randomItem } from "https://jslib.k6.io/k6-utils/1.1.0/index.js";
 import { check } from 'k6';
 
 const stockArray = new SharedArray("stock", function () {
-    return JSON.parse(open("/home/camilocomni/K6/pruebas_rendimiento_OMS_v3/data/stock.json"));
+    return JSON.parse(open("../../data/stock.json"));
 });
 
 
