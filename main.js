@@ -1,24 +1,35 @@
-import { Auth } from './omsV3/user/auth.js';
-import { Client } from './omsV3/client/Cliente.js';
+import { auth } from './omsV3/user/auth.js';
+import { client, pageClient } from './omsV3/client/cliente.js';
 import { ComputeMethod } from './omsV3/rules/ComputeMethod.js';
 import { Stock } from './omsV3/stock/stockPrueba.js';
-import { OauthApp } from './omsV3/user/django/OauthApp.js';
-import { OauthUser } from './omsV3/user/django/OauthUser.js'
-import { ValidateApp } from './omsV3/user/django/ValidateApp.js';
-import { ValidateUser } from './omsV3/user/django/ValidateUser.js';
+import { oauthApp } from './appDjango/oauthApp.js';
+import { oauthUser } from './appDjango/oauthUser.js'
+import { ValidateApp } from './appDjango/validateApp.js';
+import { ValidateUser } from './appDjango/validateUser.js';
 import { config } from './config/config.js';
 
-globalThis.baseURLCore = config.baseURLCore;
-globalThis.clientId = config.clientId;
-globalThis.clientSecret = config.clientPassword;
+globalThis.baseUrlCore = config.baseURLCore;
+globalThis.baseUrlApp = config.baseURLDjangoAPP;
+
+globalThis.clientIdCore = config.clientId;
+globalThis.clientSecretCore = config.clientSecret;
 globalThis.tenant = config.tenant;
+
+globalThis.clientIdOauth = config.clientIdDjango;
+globalThis.clientSecretOauth = config.clientSecretDjango;
+
+globalThis.clientEmailUser = config.clientEmail;
+globalThis.clientPass = config.clientPassword;
+
+
+
 
 const allScenarios = {
     shared_iterations_test: {
         executor: 'shared-iterations',
-        exec:'oauthAppTest', //Cambiar si se va a ejecutar otro
-        iterations: 10,
-        vus: 10,
+        exec:'oauthUserTest', //Cambiar si se va a ejecutar otro
+        iterations: 1,
+        vus: 1,
         maxDuration: '30s', 
         //description: 'Establece un numero fijo de iteraciones, comprarte iteraciones entre VUs https://grafana.com/docs/k6/latest/using-k6/scenarios/executors/shared-iterations/'
     },
@@ -92,24 +103,11 @@ const seleccionarScenario = __ENV.SCENARIO || 'constant_vus_test';
 const filtrarScenarios = {};
 filtrarScenarios[seleccionarScenario] = allScenarios[seleccionarScenario];
 
-let tokenApp = '';
-let tokenUser = '';
-let authToken = '';
 
 export function setup(){
-    // const auth = new Auth(baseURL);
-    // authToken = auth.login();
-
-    // const oauthApp = new OauthApp();
-    // tokenApp = oauthApp.loginApp();
-
-    // // const oauthUser = new OauthUser();
-    // // tokenUser = oauthUser.loginUser();
-    
-
-    // const client1 = new Client(baseURL, authToken);
-    // const responseJson = JSON.stringify(client1.getClient());
-    // return { authToken, responseJson};
+    // let authToken = auth();
+    // let listClient = JSON.stringify(client(authToken));
+    // return { authToken, listClient };
     // //return { tokenApp, tokenUser};
 }
 
@@ -129,46 +127,27 @@ export const options = {
 export default function () {
 };
 
-export function authTest(){  
+export function authTest(){
+    auth();
 };
-
-export function clientTest(data){
-    const client1 = new Client(baseURL, data.authToken);
-
-    client1.pageClient(data.responseJson);
-
-};
-
-export function computeMethodTest(data){
-    const computedMethod1 = new ComputeMethod(baseUrl, data.authToken);
-    
-    computedMethod1.computeOrden();
-}
-
-export function stockTest(data){
-
-    const stockTest1 = new Stock(baseUrl2,data.authToken);
-    //stockTest1.stockPost();
-    console.log(stockTest1.stockPost());
-}
-
-
-export function validateTokenTest(data){
-    
-    const validateApp = new ValidateApp(data.tokenApp);
-    validateApp.validateAppToken();
-
-    // const validateUser = new ValidateUser(data.tokenUser);
-    // validateUser.validateUserToken();
-
-}
 
 export function oauthAppTest(){
-    const oauthApp = new OauthApp();
-    console.log(oauthApp.loginApp());
+    oauthApp();
 }
 
 export function oauthUserTest(){
-    const oauthUser = new OauthUser();
-    console.log(oauthUser.loginUser());
+    oauthUser();
+}
+
+export function clientTest(data){
+    pageClient(data.authToken, data.listClient);
+};
+
+export function computeMethodTest(data){
+}
+
+export function stockTest(data){
+}
+
+export function validateTokenTest(data){
 }

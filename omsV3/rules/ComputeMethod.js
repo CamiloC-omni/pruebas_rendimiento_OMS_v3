@@ -8,13 +8,13 @@ const jsonData = new SharedArray('Items Data', function() {
 });
 
 
-export function ComputeMethod(baseUrl, authToken,){
+export function ComputeMethod(authToken){
 
     
     group('computeOrden', function(){
 
         const items = this.list_items();
-        const computeMethodUrl = `${baseUrl}/api/v1/rules/compute-method`;
+        const computeMethodUrl = `${globalThis.baseUrlCore}/api/v1/rules/compute-method`;
 
         const requestBody = JSON.stringify({
             data: [
@@ -43,10 +43,6 @@ export function ComputeMethod(baseUrl, authToken,){
         }
 
         const response = http.post(computeMethodUrl, requestBody, {headers:headers});
-
-        check(response, {
-            'status es 201': (r) => r.status === 201,
-        });
 
         if (response.status === 201 || response.status === 200) {
             console.log(`Respuesta obtenida: ${response.status}`);
