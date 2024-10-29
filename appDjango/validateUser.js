@@ -1,39 +1,29 @@
-import { check } from 'k6';
+import { group } from 'k6';
 import http from 'k6/http';
+import { checkResponse } from '../utils/checkResponse.js';
 
 
-export class ValidateUser{
-
-    constructor(token) {
-        this.token = token;
-    }
-
-    validateUserToken(){
+export function validacionTokenUser(token){
+    
+    group('validacionTokenUser', function(){
         
-        const url = 'http://apps.ourwn.co:8010/auth/user/validate/';
-        
+        const urlValidate = `${globalThis.baseUrlApp}/auth/user/validate/`;
 
         const headers = {
-            
             'Content-Type': 'application/json',
-            'Authorization': `Token ${this.token}`,
+            'Authorization': `Token ${token}`,
             'accept': 'application/json',
-        }
+        };
 
-        const response = http.get(url, {headers: headers});
+        const response = http.get(urlValidate, {headers: headers});
 
-        check(response, {
-            'validate user token 200': (r) => r.status === 200,
-        });
+        checkResponse(response);
 
         if(response.status === 200){
             const responseJson = JSON.parse(response.body);
-            console.log(`Respuesta obtenida del Usuario: ${response.status}, ${response.body}`);
-            return responseJson;
+            console.log(`Respuesta obtenida de la validacion del Token Usuario: ${response.status}, ${response.body}`);
         } else{
             console.error(`Error al obtener la respuesta: ${response.status}, ${response.body}`);
         }
-
-    }; 
-
+    });
 }

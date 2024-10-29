@@ -28,7 +28,7 @@ export function oauthUser(){
         if(response.status === 200){
             const body = JSON.parse(response.body);
             tokenUser = body.access_token;
-            console.log(`🚀 ~ Token generado correctamente: ${tokenUser}`);
+            console.log(`🚀 ~ Token del usuario se generado correctamente: ${tokenUser}`);
         } else {
             console.log(`❌❌ ~ Error generando el Token de la App: ${response.status}, ${response.body}`);
         }

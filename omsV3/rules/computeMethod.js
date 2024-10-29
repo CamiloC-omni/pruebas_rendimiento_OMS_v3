@@ -8,7 +8,7 @@ const jsonData = new SharedArray('Items Data', function() {
 });
 
 
-export function ComputeMethod(authToken){
+export function computeMethod(authToken){
 
     
     group('computeOrden', function(){

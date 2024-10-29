@@ -1,0 +1,21 @@
+{
+    "setupTimeout": "10m",
+    "summaryTimeUnit": "ms",
+    "noConnectionReuse": true,
+    "summaryTrendStats": ["avg", "min", "med", "max", "p(95)", "p(99)", "count"],
+    "scenarios": {
+        "executor": "constant-vus",
+        "exec": "stockTest",
+        "vus": 100,
+        "duration": "2m"
+        
+    }, 
+    "thresholds": {
+        "http_reqs{group:::compute}": ["count > 0"],
+        "http_req_failed{group:::compute}": ["rate<0.1"],
+        "http_req_duration{group:::compute}": ["p(95)<3000"],
+        "http_reqs{group:::appointment}": ["count > 0"],
+        "http_req_failed{group:::appointment}": ["rate<0.1"],
+        "http_req_duration{group:::appointment}": ["p(95)<3000"]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "setupTimeout": "10m",
+    "summaryTimeUnit": "ms",
+    "noConnectionReuse": true,
+    "summaryTrendStats": ["avg", "min", "med", "max", "p(95)", "p(99)", "count"],
+    "scenarios": {
+        "shared_iterations_test": {
+            "executor": "shared-iterations",
+            "exec":"validateTokenTest",
+            "iterations": 10,
+            "vus": 10,
+            "maxDuration": "30s"
+        }
+    }, "thresholds": {
+    "http_reqs{group:::validateAppToken}": ["count > 0"],
+    "http_req_failed{group:::validateAppToken}": ["rate<0.1"],
+    "http_req_duration{group:::validateAppToken}": ["p(95)<3000"],
+    "http_req_waiting{group:::validateAppToken}": ["p(95)<3000"],
+    "http_reqs{group:::validacionTokenUser}": ["count > 0"],
+    "http_req_failed{group:::validacionTokenUser}": ["rate<0.1"],
+    "http_req_duration{group:::validacionTokenUser}": ["p(95)<3000"],
+    "http_req_waiting{group:::validacionTokenUser}": ["p(95)<3000"]
+  }
+} 
