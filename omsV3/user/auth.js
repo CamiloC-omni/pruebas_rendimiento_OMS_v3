@@ -27,7 +27,7 @@ export function auth(){
         if(response.status === 200){
             const body = JSON.parse(response.body);
             token = body.authentication_result.token;
-            console.log(`🚀 ~ Token generado correctamente: ${token}`);
+            console.log(`🚀🚀 ~ Token generado correctamente: ${token}`);
         } else {
             console.error(`❌❌ ~ Error al generar el Token: ${response.status}, ${response.body}`);
             token = null;

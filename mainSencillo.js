@@ -22,8 +22,6 @@ globalThis.clientEmailUser = config.clientEmail;
 globalThis.clientPass = config.clientPassword;
 
 
-
-
 const allScenarios = {
     shared_iterations_test: {
         executor: 'shared-iterations',
@@ -77,9 +75,6 @@ const allScenarios = {
         timeUnit: '1s',
         preAllocatedVUs: 500,
         stages: [
-            // { duration: '1m', target: 10 },
-            // { duration: '0s', target: 12 },
-            // { duration: '1m', target: 12 },
             { duration: '0s', target: 30 },
             { duration: '30s', target: 30 },
             { duration: '0s', target: 32 },
@@ -88,10 +83,7 @@ const allScenarios = {
             { duration: '30s', target: 33 },
             { duration: '0s', target: 35 },
             { duration: '30s', target: 35 },
-            // { duration: '0s', target: 78 },
-            // { duration: '1m', target: 78 },
-            // { duration: '0s', target: 80 },
-            // { duration: '1m', target: 80 },
+            
         ],
         //description: 'Establece una tasa de iteraciones creciente y decreciente, aumenta la tasa de iteración de acuerdo con las etapas configuradas https://grafana.com/docs/k6/latest/using-k6/scenarios/executors/ramping-arrival-rate/'
     }

@@ -3,7 +3,7 @@ import { group } from 'k6';
 import { checkResponse } from '../../utils/checkResponse.js';
 import { randomIntBetween } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
 
-export function client( token ){
+export function client( authToken ){
 
     let bodyClient;
 
@@ -12,7 +12,7 @@ export function client( token ){
         
         const headers = {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}`,
+            'Authorization': `Bearer ${authToken}`,
             'accept': 'application/json',
         };
 
@@ -34,31 +34,31 @@ export function client( token ){
 
 export function pageClient(token, listClient){
     let bodyClient;
+    const limit = 20;  
+    let totalClient = 0;
+        
+        
+    let clientList;
+    try {
+        clientList = JSON.parse(listClient);
+    } catch (error) {
+        console.error('Error al parsear listClient como JSON:', error, 'Contenido:', listClient);
+        return;
+    }
+
+    let metaData = clientList.meta_data;
+
+    if (!metaData || typeof metaData.total === 'undefined') {
+        console.error('Error: meta_data o meta_data.total no está presente en la respuesta. Respuesta:', listClient );
+    }
+
+    if (totalClient === 0) {
+        totalClient = metaData.total;  
+    }
+
+    let offset = randomIntBetween(1, parseInt(totalClient/limit) + 1);
 
     group('pagination', function(){
-        const limit = 20;  
-        let totalClient = 0;
-        
-        
-        let clientList;
-        try {
-            clientList = JSON.parse(listClient);
-        } catch (error) {
-            console.error('Error al parsear listClient como JSON:', error, 'Contenido:', listClient);
-            return;
-        }
-
-        let metaData = clientList.meta_data;
-    
-        if (!metaData || typeof metaData.total === 'undefined') {
-            console.error('Error: meta_data o meta_data.total no está presente en la respuesta. Respuesta:', listClient );
-        }
-
-        if (totalClient === 0) {
-            totalClient = metaData.total;  
-        }
-
-        let offset = randomIntBetween(1, parseInt(totalClient/limit) + 1);
 
         let clientUrl2 = `${globalThis.baseUrlCore}/api/v1/client?offset=${offset}&limit=${limit}`;
 

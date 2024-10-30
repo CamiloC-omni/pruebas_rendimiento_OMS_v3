@@ -1,16 +1,12 @@
 import http from "k6/http";
-import {SharedArray} from "k6/data";
 import { randomItem } from "https://jslib.k6.io/k6-utils/1.1.0/index.js";
 import { group } from 'k6';
-import { checkResponse } from "../../utils/checkResponse.js";
+import { checkResponse } from "../utils/checkResponse.js";
 
-const stockArray = new SharedArray("stock", function () {
-    return JSON.parse(open("../../data/stock.json"));
-});
 
-export function stock(token){
+export function stock( token, stockAppArray){
     
-    let items = stockArray[0].sourceItems;
+    let items = stockAppArray[0].sourceItems;
     let items_number = randomItem(items);
     
     
