@@ -33,7 +33,6 @@ export function client( authToken ){
 }
 
 export function pageClient(token, listClient){
-    let bodyClient;
     const limit = 20;  
     let totalClient = 0;
         

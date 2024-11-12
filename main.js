@@ -1,7 +1,9 @@
+import { check, group, sleep } from 'k6';
+
 import {SharedArray} from "k6/data";
 import { auth } from './omsV3/user/auth.js';
 import { client, pageClient } from './omsV3/client/cliente.js';
-import { computeMethod } from './omsV3/rules/computeMethod.js';
+import { computeMethodPost, computeMethodScenarios } from './omsV3/rules/compute-method/computeMethod.js';
 import { stock } from './appDjango/stockPrueba.js';
 import { oauthApp } from './appDjango/oauthApp.js';
 import { oauthUser } from './appDjango/oauthUser.js'
@@ -11,6 +13,9 @@ import { config } from './config/config.js';
 import { kanban } from "./omsV3/stock/picking/kanban/kanban.js";
 import { validatePicking } from "./omsV3/stock/picking/validate-picking/validatePicking.js";
 import { addQuantity } from "./omsV3/stock/stock_move_line/addQuantity.js";
+import { deliveryMethodPut, scenariosDeliveryMethod } from "./omsV3/rules/delivery-method/deliveryMethod.js";
+import { paginateSale, saleGet } from './omsV3/sale/sale/sale.js';
+import { orderGet, paginateOrder } from './omsV3/sale/order/order.js';
 
 globalThis.baseUrlCore = config.baseURLCore;
 globalThis.baseUrlApp = config.baseURLDjango;
@@ -57,12 +62,24 @@ export function setup(){
     // let tokenUser = oauthUser();
 
     let authToken = auth();
-    // let listClient = JSON.stringify(client(authToken));
-    return { authToken };
+    let listSales = JSON.stringify(saleGet(authToken));
+    let listOrder = JSON.stringify(orderGet(authToken));
+    return { authToken, listSales, listOrder };
     // return {  tokenApp, tokenUser };
 }
 
-export default function () {
+export let options = {
+    
+    // vus: 1,
+    // //iterations: conbinaciones.length,  // Controlamos las iteraciones con base en el número de combinaciones
+    // iterations: 1,
+
+};
+
+export default function (data) {
+    
+    
+    
 };
 
 export function authTest(){
@@ -82,7 +99,29 @@ export function clientTest(data){
 };
 
 export function computeMethodTest(data){
-    computeMethod(data.authToken, itemsProductos);
+    
+    for (const escenarioTest of scenariosDeliveryMethod){
+
+        let response = deliveryMethodPut(data.authToken, escenarioTest.payload);
+
+        check(response, {
+            [`${escenarioTest.scenario} - Status ${escenarioTest.expectedStatuses}`]: (r) => r.status === escenarioTest.expectedStatuses,
+        });
+
+        console.log(`🎬🎬 ~ Escenario: ${escenarioTest.scenario} - Estado: ${response.status}`);
+        sleep(2);
+        if (response.status === 200 || response.status === 201) {    
+            computeMethodScenarios(data.authToken);
+        } else {
+            console.log(`❌❌ ~ Error en el escenario: ${escenarioTest.scenario}, ${response.body}`);
+        };
+    };
+    
+};
+
+export function deliveryMethodTest(data){
+    
+    
 };
 
 export function pickingKanbanTest(data){
@@ -95,6 +134,12 @@ export function addQuantityTest(data){
 
 export function validatePickingTest(data){
     validatePicking(data.authToken, codesIdPicking);
+};
+
+export function saleTest(data){
+    paginateSale(data.authToken, data.listSales);
+    paginateOrder(data.authToken, data.listOrder);
+    
 };
 
 export function stockTest(data){

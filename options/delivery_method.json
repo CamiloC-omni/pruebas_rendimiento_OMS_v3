@@ -1,0 +1,20 @@
+{
+    "setupTimeout": "10m",
+    "summaryTimeUnit": "ms",
+    "noConnectionReuse": true,
+    "summaryTrendStats": ["avg", "min", "med", "max", "p(95)", "p(99)", "count"],
+    "scenarios": {
+        "shared_iterations_test": {
+            "executor": "shared-iterations",
+            "exec":"computeMethodTest",
+            "iterations": 1,
+            "vus": 1,
+            "maxDuration": "5m"
+        }
+    }, "thresholds": {
+    "http_reqs": ["count > 0"],
+    "http_req_failed": ["rate<0.1"],
+    "http_req_duration": ["p(95)<3000"],
+    "http_req_waiting": ["p(95)<3000"]
+  }
+} 

@@ -6,15 +6,19 @@
     "scenarios": {
         "shared_iterations_test": {
             "executor": "shared-iterations",
-            "exec":"addQuantityTest",
-            "iterations": 1,
-            "vus": 1,
+            "exec":"saleTest",
+            "iterations": 10,
+            "vus": 10,
             "maxDuration": "30s"
         }
     }, "thresholds": {
-    "http_reqs{group:::add_quantity}": ["count > 0"],
-    "http_req_failed{group:::add_quantity}": ["rate<0.1"],
-    "http_req_duration{group:::add_quantity}": ["p(95)<3000"],
-    "http_req_waiting{group:::add_quantity}": ["p(95)<3000"]
+    "http_reqs{group:::sale_get}": ["count > 0"],
+    "http_req_failed{group:::sale_get}": ["rate<0.1"],
+    "http_req_duration{group:::sale_get}": ["p(95)<3000"],
+    "http_req_waiting{group:::sale_get}": ["p(95)<3000"],
+    "http_reqs{group:::get_sales_paginate}": ["count > 0"],
+    "http_req_failed{group:::get_sales_paginate}": ["rate<0.1"],
+    "http_req_duration{group:::get_sales_paginate}": ["p(95)<3000"],
+    "http_req_waiting{group:::get_sales_paginate}": ["p(95)<3000"]
   }
 } 
