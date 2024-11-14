@@ -7,18 +7,29 @@
         "shared_iterations_test": {
             "executor": "shared-iterations",
             "exec":"saleTest",
-            "iterations": 10,
-            "vus": 10,
-            "maxDuration": "30s"
+            "iterations": 20,
+            "vus": 20,
+            "maxDuration": "1m"
         }
     }, "thresholds": {
-    "http_reqs{group:::sale_get}": ["count > 0"],
-    "http_req_failed{group:::sale_get}": ["rate<0.1"],
-    "http_req_duration{group:::sale_get}": ["p(95)<3000"],
-    "http_req_waiting{group:::sale_get}": ["p(95)<3000"],
     "http_reqs{group:::get_sales_paginate}": ["count > 0"],
     "http_req_failed{group:::get_sales_paginate}": ["rate<0.1"],
     "http_req_duration{group:::get_sales_paginate}": ["p(95)<3000"],
-    "http_req_waiting{group:::get_sales_paginate}": ["p(95)<3000"]
+    "http_req_waiting{group:::get_sales_paginate}": ["p(95)<3000"],
+    
+    "http_reqs{group:::get_order_paginate}": ["count > 0"],
+    "http_req_failed{group:::get_order_paginate}": ["rate<0.1"],
+    "http_req_duration{group:::get_order_paginate}": ["p(95)<3000"],
+    "http_req_waiting{group:::get_order_paginate}": ["p(95)<3000"],
+    
+    "http_reqs{group:::products_all_pagination}": ["count > 0"],
+    "http_req_failed{group:::products_all_pagination}": ["rate<0.1"],
+    "http_req_duration{group:::products_all_pagination}": ["p(95)<3000"],
+    "http_req_waiting{group:::products_all_pagination}": ["p(95)<3000"],
+    
+    "http_reqs{group:::picking_Pagination}": ["count > 0"],
+    "http_req_failed{group:::picking_Pagination}": ["rate<0.1"],
+    "http_req_duration{group:::picking_Pagination}": ["p(95)<3000"],
+    "http_req_waiting{group:::picking_Pagination}": ["p(95)<3000"]
   }
 } 

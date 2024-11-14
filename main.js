@@ -16,6 +16,8 @@ import { addQuantity } from "./omsV3/stock/stock_move_line/addQuantity.js";
 import { deliveryMethodPut, scenariosDeliveryMethod } from "./omsV3/rules/delivery-method/deliveryMethod.js";
 import { paginateSale, saleGet } from './omsV3/sale/sale/sale.js';
 import { orderGet, paginateOrder } from './omsV3/sale/order/order.js';
+import { productsAllGet, productsAllPagination } from './omsV3/catalog/products-all/productsAll.js';
+import { pickinPagination } from './omsV3/stock/picking/picking.js';
 
 globalThis.baseUrlCore = config.baseURLCore;
 globalThis.baseUrlApp = config.baseURLDjango;
@@ -62,9 +64,10 @@ export function setup(){
     // let tokenUser = oauthUser();
 
     let authToken = auth();
-    let listSales = JSON.stringify(saleGet(authToken));
-    let listOrder = JSON.stringify(orderGet(authToken));
-    return { authToken, listSales, listOrder };
+    // let listSales = JSON.stringify(saleGet(authToken));
+    // let listOrder = JSON.stringify(orderGet(authToken));
+    // let itemsProductos = JSON.stringify(productsAllGet(authToken));
+    return { authToken };
     // return {  tokenApp, tokenUser };
 }
 
@@ -137,8 +140,10 @@ export function validatePickingTest(data){
 };
 
 export function saleTest(data){
-    paginateSale(data.authToken, data.listSales);
-    paginateOrder(data.authToken, data.listOrder);
+    paginateSale(data.authToken);
+    paginateOrder(data.authToken);
+    productsAllPagination(data.authToken);
+    pickinPagination(data.authToken);
     
 };
 
