@@ -26,8 +26,12 @@ export function validatePicking (authToken, codesIdPicking) {
 
         const response = http.post(urlVP, requestBody, {headers: headers});
 
+        let assertValidatePicking = check(response, {
+            'is status 201': (r) => r.status === 201,
+        })
+
         
-        if(response.status === 201){
+        if(assertValidatePicking){
             console.log(`🚀🚀 ~ Respuesta obtenida de Validate_Picking: ${response.status} --> ${response.body}`);
 
         } else{

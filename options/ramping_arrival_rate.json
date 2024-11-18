@@ -1,78 +1,66 @@
 {
-    "setupTimeout": "10m",
-    "summaryTimeUnit": "ms",
-    "noConnectionReuse": true,
-    "summaryTrendStats": ["avg", "min", "med", "max", "p(95)", "p(99)", "count"],
-    "scenarios": {
-      "compute": {
-        "exec": "f_compute",
+  "setupTimeout": "10m",
+  "summaryTimeUnit": "ms",
+  "noConnectionReuse": true,
+  "summaryTrendStats": ["avg", "min", "med", "max", "p(95)", "p(99)", "count"],
+  "scenarios": {
+    "compute": {
+      "exec": "computeMethodTest",
+      "executor": "ramping-arrival-rate",  
+      "timeUnit": "10s",
+      "preAllocatedVUs": 100,
+      "startRate" : 1,
+      "maxVUs": 200,
+      "stages": [
+        { "duration": "1m", "target": 1 },
+        { "duration": "1s", "target": 3 },
+        { "duration": "1m", "target": 3 }
+      ]
+    },
+    "sales": {
+      "exec": "saleTest",
+      "executor": "ramping-arrival-rate",  
+      "timeUnit": "10s",
+      "preAllocatedVUs": 100,
+      "startRate" : 1,
+      "maxVUs": 200,
+      "stages": [
+        { "duration": "1m", "target": 1 },
+        { "duration": "1s", "target": 3 },
+        { "duration": "1m", "target": 3 }
+      ]
+    },
+    "order": {
+      "exec": "orderTest",
+
+      "executor": "ramping-arrival-rate",  
+      "timeUnit": "10s",
+      "preAllocatedVUs": 100,
+      "startRate" : 1,
+      "maxVUs": 200,
+      "stages": [
+        { "duration": "1m", "target": 1 },
+        { "duration": "1s", "target": 3 },
+        { "duration": "1m", "target": 3 }
+      ]
+    },
+    "productsAll": {
+      "exec": "productsAllTest",
+      "executor": "ramping-arrival-rate",  
+      "timeUnit": "10s",
+      "preAllocatedVUs": 100,
+      "startRate" : 1,
+      "maxVUs": 200,
+      "stages": [
+        { "duration": "1m", "target": 1 },
+        { "duration": "1s", "target": 3 },
+        { "duration": "1m", "target": 3 }
+      ]
+    },
+    "picking": {
+        "exec": "pickingTest",
         "executor": "ramping-arrival-rate",  
-        "timeUnit": "1m",
-        "preAllocatedVUs": 100,
-        "startRate" : 10,
-        "maxVUs": 200,
-        "stages": [
-          { "duration": "1m", "target": 10 },
-          { "duration": "1s", "target": 30 },
-          { "duration": "1m", "target": 30 }
-        ]
-      },
-      "appointment": {
-        "exec": "f_appointment",
-        "executor": "ramping-arrival-rate",  
-        "timeUnit": "1m",
-        "preAllocatedVUs": 100,
-        "startRate" : 1,
-        "maxVUs": 200,
-        "stages": [
-          { "duration": "1m", "target": 1 },
-          { "duration": "1s", "target": 3 },
-          { "duration": "1m", "target": 3 }
-        ]
-      },
-      "order": {
-        "exec": "f_order",
-        "executor": "ramping-arrival-rate",  
-        "timeUnit": "1m",
-        "preAllocatedVUs": 100,
-        "startRate" : 1,
-        "maxVUs": 200,
-        "stages": [
-          { "duration": "1m", "target": 1 },
-          { "duration": "1s", "target": 3 },
-          { "duration": "1m", "target": 3 }
-        ]
-      },
-      "stock": {
-        "exec": "f_stock",
-        "executor": "ramping-arrival-rate",  
-        "timeUnit": "1m",
-        "preAllocatedVUs": 100,
-        "startRate" : 1,
-        "maxVUs": 200,
-        "stages": [
-          { "duration": "1m", "target": 1 },
-          { "duration": "1s", "target": 3 },
-          { "duration": "1m", "target": 3 }
-        ]
-      },
-      "picking": {
-        "exec": "f_picking",
-        "executor": "ramping-arrival-rate",  
-        "timeUnit": "1m",
-        "preAllocatedVUs": 100,
-        "startRate" : 1,
-        "maxVUs": 200,
-        "stages": [
-          { "duration": "1m", "target": 1 },
-          { "duration": "1s", "target": 3 },
-          { "duration": "1m", "target": 3 }
-        ]
-      },
-      "addQuantity": {
-        "exec": "f_addQuantity",
-        "executor": "ramping-arrival-rate",  
-        "timeUnit": "1m",
+        "timeUnit": "10s",
         "preAllocatedVUs": 100,
         "startRate" : 1,
         "maxVUs": 200,
@@ -83,13 +71,27 @@
         ]
       }
     },
-    "thresholds": {
-      "http_reqs{group:::compute}": ["count > 0"],
-      "http_req_failed{group:::compute}": ["rate<0.1"],
-      "http_req_duration{group:::compute}": ["p(95)<3000"],
-      "http_reqs{group:::appointment}": ["count > 0"],
-      "http_req_failed{group:::appointment}": ["rate<0.1"],
-      "http_req_duration{group:::appointment}": ["p(95)<3000"]
-    }
+  "thresholds": {
+    "http_reqs{group:::computeMethodTest}": ["count > 0"],
+    "http_req_failed{group:::computeMethodTest}": ["rate<0.1"],
+    "http_req_duration{group:::computeMethodTest}": ["p(95)<3000"],
+    
+    "http_reqs{group:::get_sales_paginate}": ["count > 0"],
+    "http_req_failed{group:::get_sales_paginate}": ["rate<0.1"],
+    "http_req_duration{group:::get_sales_paginate}": ["p(95)<3000"],
+    
+    "http_reqs{group:::get_order_paginate}": ["count > 0"],
+    "http_req_failed{group:::get_order_paginate}": ["rate<0.1"],
+    "http_req_duration{group:::get_order_paginate}": ["p(95)<3000"],
+    
+    "http_reqs{group:::products_all_pagination}": ["count > 0"],
+    "http_req_failed{group:::products_all_pagination}": ["rate<0.1"],
+    "http_req_duration{group:::products_all_pagination}": ["p(95)<3000"],
+    
+    "http_reqs{group:::picking_Pagination}": ["count > 0"],
+    "http_req_failed{group:::picking_Pagination}": ["rate<0.1"],
+    "http_req_duration{group:::picking_Pagination}": ["p(95)<3000"]
   }
+}
+
   

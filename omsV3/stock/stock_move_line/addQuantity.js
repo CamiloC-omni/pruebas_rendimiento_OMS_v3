@@ -5,8 +5,6 @@ import { randomItem } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
 export function addQuantity(authToken, stockQuantity){
 
     let randomQuantity = randomItem(stockQuantity);
-    console.log(randomQuantity.id);
-    console.log(randomQuantity.quantity);
     
     group('add_quantity', function(){
 
@@ -25,7 +23,11 @@ export function addQuantity(authToken, stockQuantity){
 
         const response = http.post(urlAQ, requestBody, {headers: headers});
 
-        if(response.status === 200 || response.status === 201){
+        let assertAQuantity = check(response, {
+            'is status 200 or 201': (r) => r.status === 200 || r.status === 201,
+        });
+
+        if(assertAQuantity){
             console.log(`🚀🚀 ~ Respuesta obtenida de Add_Quantity: ${response.status} --> ${response.body}`);
         } else{
             console.error(`❌❌ ~ Error al obtener la respuesta de Add_Quantity: ${response.status}, ${response.body}`);

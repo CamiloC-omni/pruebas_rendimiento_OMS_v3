@@ -55,6 +55,10 @@ const stockAppArray = new SharedArray("stock", function () {
     return JSON.parse(open("./data/stock.json"));
 });
 
+const address_code = new SharedArray("adresses_code_corregimiento", function () {
+    return JSON.parse(open("./data/address_codes.json"));
+});
+
 
 // Comando para ejecutar: docker compose run --rm k6 run --config /scripts/options/share_iterations_default.json /scripts/main.js
 
@@ -79,10 +83,7 @@ export let options = {
 
 };
 
-export default function (data) {
-    
-    
-    
+export default function (data) {  
 };
 
 export function authTest(){
@@ -103,28 +104,32 @@ export function clientTest(data){
 
 export function computeMethodTest(data){
     
-    for (const escenarioTest of scenariosDeliveryMethod){
+    computeMethodPost(data.authToken, itemsProductos, address_code)
 
-        let response = deliveryMethodPut(data.authToken, escenarioTest.payload);
+    // for (const escenarioTest of scenariosDeliveryMethod){
 
-        check(response, {
-            [`${escenarioTest.scenario} - Status ${escenarioTest.expectedStatuses}`]: (r) => r.status === escenarioTest.expectedStatuses,
-        });
+    //     let response = deliveryMethodPut(data.authToken, escenarioTest.payload);
 
-        console.log(`🎬🎬 ~ Escenario: ${escenarioTest.scenario} - Estado: ${response.status}`);
-        sleep(2);
-        if (response.status === 200 || response.status === 201) {    
-            computeMethodScenarios(data.authToken);
-        } else {
-            console.log(`❌❌ ~ Error en el escenario: ${escenarioTest.scenario}, ${response.body}`);
-        };
-    };
+    //     check(response, {
+    //         [`${escenarioTest.scenario} - Status ${escenarioTest.expectedStatuses}`]: (r) => r.status === escenarioTest.expectedStatuses,
+    //     });
+
+    //     console.log(`🎬🎬 ~ Escenario: ${escenarioTest.scenario} - Estado: ${response.status}`);
+    //     sleep(2);
+    //     if (response.status === 200 || response.status === 201) {    
+    //         computeMethodScenarios(data.authToken);
+    //     } else {
+    //         console.log(`❌❌ ~ Error en el escenario: ${escenarioTest.scenario}, ${response.body}`);
+    //     };
+    // };
     
 };
 
 export function deliveryMethodTest(data){
-    
-    
+};
+
+export function pickingTest(data){
+    pickinPagination(data.authToken);
 };
 
 export function pickingKanbanTest(data){
@@ -140,15 +145,19 @@ export function validatePickingTest(data){
 };
 
 export function saleTest(data){
-    paginateSale(data.authToken);
-    paginateOrder(data.authToken);
-    productsAllPagination(data.authToken);
-    pickinPagination(data.authToken);
-    
+    paginateSale(data.authToken)
 };
 
 export function stockTest(data){
     stock(data.tokenApp, stockAppArray);
+};
+
+export function orderTest(data){
+    paginateOrder(data.authToken);
+};
+
+export function productsAllTest(data){
+    productsAllPagination(data.authToken);
 };
 
 export function validateTokenTest(data){

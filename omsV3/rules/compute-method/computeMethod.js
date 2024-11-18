@@ -2,11 +2,14 @@ import http from "k6/http";
 import { check, group, sleep } from 'k6';
 import { randomItem } from "https://jslib.k6.io/k6-utils/1.1.0/index.js";
 import { randomIntBetween } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
+import { Counter } from 'k6/metrics';
 
+const exceptionsCompute = new Counter('No_coverage_in_the_address');
+const warehousesCompute = new Counter('Coverage_in_the_address');
+export function computeMethodPost(authToken, itemsProductos, address_code){
 
-export function computeMethodPost(authToken, itemsProductos){
-
-
+    let codeMap = address_code.map(item => item.code);
+    let codeCorregimiento = randomItem(codeMap);
     let rangoitems = randomIntBetween(20, 35);
 
     let items = [];
@@ -16,8 +19,7 @@ export function computeMethodPost(authToken, itemsProductos){
     }
 
     group('computeMethodTest', function(){
-
-        
+ 
         const computeMethodUrl = `${globalThis.baseUrlCore}/api/v1/rules/compute-method`;
 
         const requestBody = JSON.stringify({
@@ -26,7 +28,7 @@ export function computeMethodPost(authToken, itemsProductos){
                 "shippingDetails": {
                   "address": {
                     "territorial_division": {
-                      "code": "0317",
+                      "code": codeCorregimiento,
                       "level": "pa_corregimiento"
                     }
                   },
@@ -35,24 +37,8 @@ export function computeMethodPost(authToken, itemsProductos){
                     "warehouse_code": "1959"
                   }
                 },
-                "items": [
-                  {
-                    "price_unit": 2.55,
-                    "quantity": 1,
-                    "sku": "10100555"
-                  },
-                  {
-                    "price_unit": 0.35,
-                    "quantity": 1,
-                    "sku": "20100834"
-                  },
-                  {
-                      "price_unit": 2.55,
-                      "sku": "20084197",
-                      "quantity": 1
-                      
-                  } //items
-                ]
+                "items":  items
+                
               }
             ]
           });
@@ -65,13 +51,29 @@ export function computeMethodPost(authToken, itemsProductos){
 
         const response = http.post(computeMethodUrl, requestBody, {headers:headers});
 
-        check(response, {
+        let assertCompute = check(response, {
             'is status 201': (r) => r.status === 201,
         });
 
-        if (response.status === 201) {
+        if ( assertCompute ) {
             console.log(`🚀🚀 ~ Respuesta obtenida de Compute-Method: ${response.status}`);
-            console.log(response.body);
+            let body = JSON.parse(response.body);
+            let warehousesOk = body.result[0].warehouses
+            let exceptionsOk = body.result[0].exceptions
+            
+            
+            if(warehousesOk.length > 0 ){
+              console.log(`Resultado: ${JSON.stringify(warehousesOk)}, En el territorial_division: ${codeCorregimiento}`);
+              warehousesCompute.add(1);
+            
+            } else if(exceptionsOk[0] === "No coverage in the address") {
+              console.log(`Resultado: ${exceptionsOk}, En el territorial_division: ${codeCorregimiento}`)
+              exceptionsCompute.add(1)
+            } else if (warehousesOk.length === 0 && exceptionsOk.length === 0){
+              console.log(`Resultado: Sin resultados, Sin Stock, En el territorial_division: ${codeCorregimiento}`);
+            }
+            
+    
         } else {
             console.log(`❌❌ ~ Error al obtener la respuesta en Compute-Method: ${response.status}, ${response.body}, ${response.request.body}`);
         }
